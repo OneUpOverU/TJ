@@ -11,6 +11,7 @@
   background-color: #0056b3; /* Darkens on hover */
 }
 body {
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
