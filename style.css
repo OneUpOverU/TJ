@@ -2,6 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .btn-link {
