@@ -1,3 +1,7 @@
+body {
+  display: flex;
+}
+
 .btn-link {
   display: inline-block;
   padding: 10px 20px;
@@ -10,9 +14,10 @@
 .btn-link:hover {
   background-color: #0056b3; /* Darkens on hover */
 }
-body {
+.hello {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    align-content: center;
 }
