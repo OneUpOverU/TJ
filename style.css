@@ -20,6 +20,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+}
+
+.greet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
