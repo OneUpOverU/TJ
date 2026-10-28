@@ -12,6 +12,10 @@ body {
   color: white;
   text-decoration: none; /* Removes the underline */
   border-radius: 5px;
+   max-width: 200px;         /* Set a maximum width */
+  overflow: hidden;         /* Hide the overlapping text */
+  white-space: nowrap;      /* Keep text on a single line */
+  text-overflow: ellipsis;
   font-family: Arial, sans-serif;
 }
 .btn-link:hover {
