@@ -35,3 +35,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.sunshine {
+  display: flex;
+}
+
+.confess {
+  display: flex;
+}
+
+.interest {
+  display: flex;
+}
