@@ -8,7 +8,7 @@ body {
 .btn-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007BFF;
+  background-color: royalblue;
   color: white;
   text-decoration: none; /* Removes the underline */
   border-radius: 5px;
@@ -19,7 +19,7 @@ body {
   font-family: Arial, sans-serif;
 }
 .btn-link:hover {
-  background-color: #0056b3; /* Darkens on hover */
+  background-color: rgb(250, 10, 1); /* Darkens on hover */
 }
 .hello {
     display: flex;
@@ -33,7 +33,7 @@ body {
   align-items: center;
 }
 
-.whole {
+.whole, .question {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,9 +46,11 @@ body {
 
 .confess {
   display: flex;
+  line-height: 2;
+  text-align: center;
 }
 
 .interest {
   display: flex;
-  max-height: 10px;
+  max-height: 40px;
 }
