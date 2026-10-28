@@ -50,4 +50,5 @@ body {
 
 .interest {
   display: flex;
+  max-height: 10px;
 }
