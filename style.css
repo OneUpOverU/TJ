@@ -96,3 +96,21 @@ body {
   color: black;
   align-items: flex-start;
 }
+
+.yes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ #runaway-btn {
+            position: absolute;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.1s ease; /* Adds a slight smooth gliding effect */
+            width: 200px;
+        }

@@ -11,7 +11,26 @@
     <div class="like">I like you so much Talia. I want you, desperately. I have never wanted anyone like I want you.</div>
     <div class="ask">Will you be my girlfriend?</div>
 
-    <div class="yes"><a href="./yes.html" class="btn-link">YES OF COURSE</a></div><button>No</button>
+    <div class="yes"><a href="./yes.html" class="btn-link">YES OF COURSE</a>
+    <button class="btn-link" id="runaway-btn">No, ew wtf</button></div>
+
+     <script>
+        const button = document.getElementById('runaway-btn');
+
+        button.addEventListener('mouseover', () => {
+            // Calculate random positions within the browser viewport bounds
+            const maxX = window.innerWidth - button.offsetWidth;
+            const maxY = window.innerHeight - button.offsetHeight;
+
+            const randomX = Math.floor(Math.random() * maxX);
+            const randomY = Math.floor(Math.random() * maxY);
+
+            // Apply the new coordinates to the button
+            button.style.left = `${randomX}px`;
+            button.style.top = `${randomY}px`;
+        });
+    </script>
+    
 
     
     </div>
