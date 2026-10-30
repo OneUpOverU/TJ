@@ -6,6 +6,8 @@ body {
   color: royalblue;
   font-weight: bold;
   font-size: large;
+  font-style: italic;
+  font-family: sans-serif;
 
    /* Prevent the image from repeating like a tile grid */
   background-repeat: no-repeat;
@@ -21,6 +23,7 @@ body {
   
   /* Fallback background color in case the image fails to load */
   background-color: #f0f0f0;
+
 
 }
 
@@ -40,6 +43,7 @@ body {
 .btn-link:hover {
   background-color: royalblue; /* Darkens on hover */
 }
+
 .hello {
     display: flex;
     justify-content: center;
@@ -83,11 +87,12 @@ body {
 .two{
   background-image: url(../TJ/images/spider.avif);
   background-size: cover;
+  color: red;
 }
 
 .one {
   background-image: url(../TJ/images/jester.jpeg);
   background-size: contain;
-  color: red;
+  color: black;
   align-items: flex-start;
 }
